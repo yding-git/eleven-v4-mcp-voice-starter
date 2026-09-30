@@ -1,0 +1,13 @@
+# Eleven v4 MCP Voice Starter
+
+Purpose: public, sanitized Node.js example for ElevenLabs Eleven v4 speech, stdio MCP, Telegram delivery, and local web playback.
+Start: README.md
+Agent rules: AGENTS.md
+Voice creation: docs/voice-design.md
+Architecture and output adapters: docs/architecture.md
+Switching old TTS code to v4: docs/switch-v3-to-v4.md
+Codex / ChatGPT Work / Chat: docs/openai-clients.md
+
+Run: npm ci; copy .env.example to .env; fill your own secrets; npm test; npm start; npm run mcp.
+Actual implementation: src/voice.mjs, src/gateway.mjs, src/mcp.mjs.
+Do not infer that hosted ChatGPT Work can run this local stdio server or will automatically display an MCP audio block.
